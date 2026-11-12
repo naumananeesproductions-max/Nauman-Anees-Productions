@@ -11,45 +11,65 @@ interface Env {
   APPS_SCRIPT_SECRET?: string;
 }
 
-const duplicateGuard = new RequestDuplicateGuard(10 * 60 * 1000);
-
-export const onRequestPost = async (context: {
+interface PagesContext {
   request: Request;
   env: Env;
-}): Promise<Response> => {
+}
+
+const duplicateGuard = new RequestDuplicateGuard(10 * 60 * 1000);
+
+function jsonResponse(body: Record<string, unknown>, status = 200): Response {
+  return new Response(JSON.stringify(body), {
+    status,
+    headers: {
+      'Content-Type': 'application/json; charset=utf-8',
+      'Cache-Control': 'no-store',
+    },
+  });
+}
+
+export const onRequestOptions = async (): Promise<Response> => {
+  return new Response(null, {
+    status: 204,
+    headers: {
+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Max-Age': '86400',
+    },
+  });
+}
+
+export const onRequestPost = async (context: PagesContext): Promise<Response> => {
   const { request, env } = context;
 
   let payload: Partial<SubmissionPayload>;
   try {
     payload = (await request.json()) as Partial<SubmissionPayload>;
   } catch {
-    return Response.json(
-      { success: false, error: 'Malformed JSON body.' },
-      { status: 400 }
-    );
+    return jsonResponse({ success: false, error: 'Malformed JSON body.' }, 400);
   }
 
   const validation = validateSubmissionPayload(payload);
   if (!validation.valid) {
-    return Response.json(
+    return jsonResponse(
       {
         success: false,
         error: 'Validation failed. Please check required fields.',
         fieldErrors: validation.errors,
       },
-      { status: 400 }
+      400
     );
   }
 
   const requestId = String(payload.requestId).trim();
   if (duplicateGuard.isDuplicate(requestId)) {
-    return Response.json(
+    return jsonResponse(
       {
         success: false,
         requestId,
         error: 'This request ID has already been submitted.',
       },
-      { status: 409 }
+      409
     );
   }
 
@@ -57,7 +77,7 @@ export const onRequestPost = async (context: {
   const appsScriptUrl = env.APPS_SCRIPT_URL?.trim() || OFFICIAL_APPS_SCRIPT_URL;
 
   if (!secret) {
-    return Response.json(
+    return jsonResponse(
       {
         success: false,
         requestId,
@@ -65,7 +85,7 @@ export const onRequestPost = async (context: {
         error:
           'Cloudflare APPS_SCRIPT_SECRET is not configured yet. Please add it in Cloudflare Pages Settings > Environment variables.',
       },
-      { status: 503 }
+      503
     );
   }
 
@@ -91,7 +111,7 @@ export const onRequestPost = async (context: {
     const verified = verifyAppsScriptResponse(rawText);
 
     if (!upstreamResponse.ok || !verified.ok) {
-      return Response.json(
+      return jsonResponse(
         {
           success: false,
           requestId,
@@ -99,24 +119,27 @@ export const onRequestPost = async (context: {
             verified.error ||
             'Google Apps Script did not confirm submission receipt. Please retry.',
         },
-        { status: 502 }
+        502
       );
     }
 
     duplicateGuard.markAccepted(requestId);
-    return Response.json({
-      success: true,
-      requestId,
-      message: 'Submission verified and recorded.',
-    });
+    return jsonResponse(
+      {
+        success: true,
+        requestId,
+        message: 'Submission verified and recorded.',
+      },
+      200
+    );
   } catch {
-    return Response.json(
+    return jsonResponse(
       {
         success: false,
         requestId,
         error: 'Upstream connection error while contacting Google Apps Script.',
       },
-      { status: 502 }
+      502
     );
   }
 };
