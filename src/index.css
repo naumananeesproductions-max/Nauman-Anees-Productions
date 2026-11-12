@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --color-obsidian: #080607;
+  --color-obsidian-surface: #120E10;
+  --color-obsidian-elevated: #191316;
+  --color-velvet: #6B0F1A;
+  --color-velvet-deep: #3B060D;
+  --color-burgundy: #4E0A14;
+  --color-gold: #C9A25D;
+  --color-gold-bright: #DFBE7E;
+  --color-ivory: #F5EFE6;
+  --color-ivory-muted: #B8AEA0;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: #080607;
+    color: #F5EFE6;
+    font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: "Cormorant Garamond", Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+}
+
+/* Realistic 3D Velvet Theatre Curtain Pleats */
+.velvet-curtain-left {
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      rgba(18, 2, 5, 0.94) 0px,
+      rgba(107, 15, 26, 0.96) 24px,
+      rgba(148, 22, 36, 0.92) 44px,
+      rgba(74, 8, 16, 0.98) 68px,
+      rgba(22, 2, 6, 0.96) 92px
+    ),
+    radial-gradient(ellipse at 85% 40%, rgba(201, 162, 93, 0.14), transparent 60%);
+  box-shadow:
+    inset -24px 0 48px rgba(0, 0, 0, 0.78),
+    16px 0 42px rgba(0, 0, 0, 0.85);
+}
+
+.velvet-curtain-right {
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      rgba(22, 2, 6, 0.96) 0px,
+      rgba(74, 8, 16, 0.98) 24px,
+      rgba(148, 22, 36, 0.92) 48px,
+      rgba(107, 15, 26, 0.96) 68px,
+      rgba(18, 2, 5, 0.94) 92px
+    ),
+    radial-gradient(ellipse at 15% 40%, rgba(201, 162, 93, 0.14), transparent 60%);
+  box-shadow:
+    inset 24px 0 48px rgba(0, 0, 0, 0.78),
+    -16px 0 42px rgba(0, 0, 0, 0.85);
+}
+
+.velvet-sheen {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 220, 210, 0.08) 0%,
+    rgba(0, 0, 0, 0.02) 35%,
+    rgba(0, 0, 0, 0.45) 85%,
+    rgba(0, 0, 0, 0.82) 100%
+  );
+}
+
+.cinema-valance {
+  background-image:
+    repeating-linear-gradient(
+      90deg,
+      rgba(24, 3, 7, 0.96) 0px,
+      rgba(92, 12, 22, 0.98) 18px,
+      rgba(135, 19, 32, 0.95) 34px,
+      rgba(48, 6, 11, 0.98) 54px
+    );
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.85);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

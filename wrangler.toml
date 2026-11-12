@@ -1,0 +1,6 @@
+name = "nauman-anees-productions"
+compatibility_date = "2026-01-01"
+pages_build_output_dir = "dist"
+
+[vars]
+APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzjBm0Lm6Q6-PkbITR9SkzOlQGno_pcpUCWkb4IFgryO0Xnfdu7eK1z0TO0QvXuCus/exec"

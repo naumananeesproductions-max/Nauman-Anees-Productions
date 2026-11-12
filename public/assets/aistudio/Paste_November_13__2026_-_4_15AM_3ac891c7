@@ -1,0 +1,1150 @@
+# NAUMAN ANEES PRODUCTIONS
+# FINAL MASTER DEVELOPMENT PROMPT
+## Modern Luxury • Elite Cinema Experience • International Production House
+
+Act as an elite international web design agency, creative director, senior full-stack developer, cinematic motion designer, UI/UX specialist, SEO architect and backend engineer.
+
+Your task is to complete and deliver the ultimate website for **Nauman Anees Productions**.
+
+This project must combine:
+- Modern luxury web design.
+- Premium cinematic storytelling.
+- A rich filmmaking family legacy.
+- Professional service booking.
+- Artist and talent management.
+- Fully functional Google Sheets integration.
+- International-standard SEO and performance.
+
+This is not an ordinary production-house website. It must feel like the official digital identity of a prestigious international film studio.
+
+# 1. EXISTING PROJECT — PRESERVE EVERYTHING
+
+I may provide an existing website project containing work already completed.
+
+FIRST, thoroughly inspect all existing project files, source code, pages, assets, backend functions and integrations.
+
+IMPORTANT:
+
+- Do not start the website from scratch.
+- Do not unnecessarily rewrite functioning code.
+- Do not delete existing content.
+- Do not remove completed pages.
+- Do not replace working booking systems.
+- Do not break Google Sheets integration.
+- Do not remove existing cinematic animations.
+- Do not change the original business requirements.
+- Do not replace working design components without a genuine reason.
+
+Preserve all existing functionality and improve the website wherever required.
+
+The final website must be more polished, modern, luxurious and professional while retaining all established content, features and business requirements.
+
+# 2. OFFICIAL BRAND IDENTITY
+
+**Brand:** Nauman Anees Productions
+
+**Tagline:** Your One-Stop Media Solution.
+
+**Brand Vision:** Building the Next Era of Pakistani Cinema.
+
+**Founder / Creative Direction:** Daniyal Nauman.
+
+**Location:** Pakistan.
+
+**Industry:** Film, television, music, video production, post-production, VFX, animation and entertainment.
+
+### Official Logo — CRITICAL
+
+I WILL PROVIDE THE OFFICIAL NAUMAN ANEES PRODUCTIONS LOGO.
+
+Use ONLY the logo I provide.
+
+- Do not generate a replacement logo.
+- Do not create another company emblem.
+- Do not modify the original logo design.
+- Do not distort its proportions.
+- Do not change its original identity or lettering.
+- Use appropriate sizing, spacing and background contrast.
+- Use the official logo in the navigation, homepage, footer and favicon only if an appropriate icon asset can be derived without altering the logo.
+
+The official logo must be treated as the primary brand identity throughout the website.
+
+# 3. FINAL DESIGN DIRECTION — MODERN LUXURY
+
+The website must look like a combination of a premium international film studio, luxury entertainment brand and sophisticated modern digital platform.
+
+Use a carefully balanced visual system:
+
+- Rich black backgrounds.
+- Deep burgundy accents.
+- Velvet cinema red.
+- Elegant metallic gold.
+- Sophisticated ivory typography.
+- Modern editorial layouts.
+- Refined cinematic photography.
+- Professional visual hierarchy.
+- Generous spacing.
+- Beautiful responsive compositions.
+
+The design must be modern, not outdated.
+
+Avoid generic corporate templates, cheap gradients, excessive gold borders, unnecessary glowing elements, crowded layouts and repetitive AI-generated card designs.
+
+Use modern typography, excellent spacing, beautifully composed imagery and sophisticated interactions.
+
+Every page must feel like part of the same expensive international brand.
+
+# 4. REALISTIC CINEMA CURTAINS — MOST IMPORTANT ANIMATION
+
+The website opening must create a genuine classic cinema experience.
+
+I want realistic deep-red velvet theatre curtains.
+
+### Opening animation sequence
+
+1. Initially display a dark cinema theatre environment.
+2. Realistic red velvet curtains appear.
+3. Curtains meet naturally in the centre.
+4. Slowly open from the centre toward both sides.
+5. Their fabric should display believable folds, depth, natural movement and realistic shadows.
+6. Soft cinematic light should gradually appear from behind them.
+7. Reveal the official Nauman Anees Productions logo.
+8. Display the company tagline elegantly.
+9. Transition smoothly into the homepage.
+
+The curtain animation must look like real theatrical curtains, not two flat red rectangles moving sideways.
+
+Use appropriate CSS 3D transformations, layered fabric textures, SVG, WebGL or lightweight motion techniques where they genuinely improve realism.
+
+Prioritize:
+
+- Realistic fabric movement.
+- Natural folds.
+- Depth and perspective.
+- Soft shadows.
+- Smooth acceleration and deceleration.
+- Subtle cinematic lighting.
+- Precise synchronization.
+
+Do not make it unnecessarily long.
+
+### Internal page transitions
+
+Whenever a visitor navigates to another internal page, display the same cinematic identity through a shorter red-curtain transition.
+
+This should work for:
+
+- Main navigation.
+- Service cards.
+- Booking buttons.
+- Footer links.
+- Internal calls to action.
+- Browser back and forward navigation where possible.
+
+Requirements:
+
+- Smooth and consistent.
+- No flickering.
+- No blank screens.
+- No broken navigation.
+- No unnecessary loading delays.
+- No layout shifts.
+- Direct URLs must work.
+- Page refresh must work.
+- Respect reduced-motion accessibility.
+
+Animations must never prevent search engines from crawling page content.
+
+# 5. PROFESSIONAL ANIMATION SYSTEM
+
+Animations across the website must be modern, sophisticated and fluid.
+
+Use elegant:
+
+- Scroll-triggered reveals.
+- Subtle parallax effects.
+- Smooth section transitions.
+- Professional hover interactions.
+- Refined image reveals.
+- Beautiful typography animations.
+- Cinematic page transitions.
+- Subtle navigation effects.
+- Elegant service-card interactions.
+
+Avoid excessive motion, constant floating effects, over-animated text, unnecessary zooming and distracting transitions.
+
+Performance and visual quality must remain balanced.
+
+# 6. OFFICIAL PHOTOGRAPHS
+
+I will provide three actual photographs:
+
+1. Anees Bhatti.
+2. Nauman Anees.
+3. Daniyal Nauman.
+
+Use them in their respective legacy and profile sections.
+
+STRICT REQUIREMENTS:
+
+- Preserve each person's real identity.
+- Do not replace faces with generated faces.
+- Do not change their facial structure.
+- Do not distort body proportions.
+- Do not assign the wrong photograph to another person.
+- Do not use artificial portraits as substitutes.
+- Optimize original images professionally.
+
+Use the supplied photographs as the authentic portraits of the three generations.
+
+# 7. ALL OTHER WEBSITE VISUALS
+
+I will NOT provide any other photographs, film posters, screenshots, music-video images or studio images.
+
+You must independently source or create all other website visuals.
+
+Use suitable, commercially usable cinematic photography from reputable image libraries such as Unsplash, Pexels and properly licensed Wikimedia Commons images.
+
+Where possible, download images into the local project assets directory and record their sources and licenses.
+
+Use cinema-related imagery throughout all pages:
+
+- Film cameras and production rigs.
+- Film sets.
+- Editing suites.
+- Cinema theatres.
+- Recording studios.
+- Audio mixing consoles.
+- Microphones.
+- Color grading monitors.
+- VFX workstations.
+- Animation environments.
+- Green-screen studios.
+- Music-video production.
+- Concert stages.
+- Television production.
+- Film crews.
+- Commercial shoots.
+- Professional lighting equipment.
+
+Every image must be relevant to its section.
+
+Do not present stock images as genuine Nauman Anees Productions projects.
+
+Do not fabricate film posters or production credits.
+
+If internet asset sourcing is unavailable, create custom CSS/SVG cinematic artwork and continue development. Never leave pages empty or ask me for additional images.
+
+# 8. HOMEPAGE
+
+Create an exceptional homepage containing:
+
+### HERO
+
+Headline:
+
+A LEGACY OF CINEMA. A VISION FOR THE FUTURE.
+
+Supporting text:
+
+"From generations of filmmaking heritage to the future of visual storytelling, Nauman Anees Productions brings creativity, technology and production expertise together under one roof."
+
+Buttons:
+
+- Explore Our Legacy.
+- Explore Our Services.
+- Start Your Project.
+
+### ABOUT US
+
+Headline:
+
+MORE THAN SIX DECADES. ONE CREATIVE LEGACY.
+
+Introduce the family's combined 60+ years of film-industry experience.
+
+Present the three generations through an impressive timeline and original photographs.
+
+### THREE GENERATIONS
+
+**ANEES BHATTI — THE FOUNDATION**
+
+Film Director and grandfather of Daniyal Nauman.
+
+**NAUMAN ANEES — THE TECHNICAL VISION**
+
+Film Editor, Post-Production Specialist and father of Daniyal Nauman.
+
+**DANIYAL NAUMAN — THE NEXT GENERATION**
+
+The next generation carrying the family legacy forward with a vision to develop a leading one-stop media solution and one of Pakistan's biggest film production houses.
+
+Every person must have a dedicated profile page.
+
+### OUR SERVICES
+
+Show premium cinematic sections for:
+
+- Music Production.
+- Video Production.
+- Video Post-Production.
+- TV Commercials.
+- TV Dramas.
+- Films & Short Films.
+- Concerts & Events.
+
+### EXPERIENCE COUNTERS
+
+Display:
+
+- 60+ Years of Family Industry Legacy.
+- 50+ Dramas.
+- 200+ Songs.
+- 10+ Films.
+
+These are family-affiliated historical figures, not necessarily independently verified current-company credits.
+
+### OUR VISION
+
+BUILDING THE NEXT ERA OF PAKISTANI CINEMA.
+
+Explain Daniyal Nauman's vision of building an integrated production house with professional production, music, post-production, VFX and entertainment services.
+
+### PORTFOLIO
+
+Create beautiful cinematic project layouts. Do not invent actual credits or projects.
+
+### FINAL CTA
+
+Have a Vision? Let's Bring It to Life.
+
+# 9. LEGACY PAGES
+
+Create separate premium biographical pages for:
+
+- Anees Bhatti.
+- Nauman Anees.
+- Daniyal Nauman.
+
+## Anees Bhatti
+
+Role: Film Director.
+
+Relationship: Grandfather of Daniyal Nauman.
+
+Include:
+
+- Biography.
+- Film-directing journey.
+- Family film-industry history.
+- Verified notable projects.
+- Filmography where available.
+- Archival-style presentation.
+- Influence on future generations.
+
+Do not invent historical information.
+
+## Nauman Anees
+
+Headline:
+
+THE VISION BEHIND THE FRAME.
+
+Role: Film Editor, Post-Production Specialist and Creative Pioneer.
+
+Historical details supplied:
+
+- Highly accomplished Pakistani film editor.
+- Worked on major PTV productions and projects associated with other television channels.
+- Entrusted with extensive post-production responsibilities on major projects.
+- Associated with 50+ dramas.
+- Associated with 200+ songs.
+- Associated with 10+ films.
+- His work included Heer Ranjha.
+- The family credits him with introducing green-screen techniques to Pakistani music-video production.
+- One example associated with this work is "Menu Mar Gaya" by AMZ.
+
+Sections:
+
+1. His Early Journey.
+2. Film Editing.
+3. Television Productions.
+4. Music & Music Videos.
+5. Green Screen & Technical Innovation.
+6. Post-Production Legacy.
+7. Notable Work.
+8. His Influence on Daniyal Nauman.
+
+Use cinematic editing, VFX, film and television imagery.
+
+Present historical claims carefully as family-supplied details. Do not invent awards, credits, dates or endorsements. Treat the green-screen pioneer claim as family attribution unless independently verified.
+
+## Daniyal Nauman
+
+Headline:
+
+HONOURING THE PAST. CREATING THE FUTURE.
+
+Role: Founder / Creative Producer / Director.
+
+Present his vision, creative direction and work across:
+
+- Song Production.
+- Music Recording.
+- Mixing & Mastering.
+- Music Video Production.
+- Video Editing.
+- Color Grading.
+- VFX.
+- Compositing.
+- 2D/3D Animation.
+- Green Screen.
+- Film Production.
+- Television Production.
+- Creative Direction.
+- Artist Development.
+
+Do not invent awards, celebrity collaborations or professional credits.
+
+# 10. MUSIC PRODUCTION
+
+Build an elegant professional music-studio page.
+
+Services:
+
+1. Music Recording.
+2. Music Production.
+3. Mixing & Mastering.
+4. Composition & Arrangement.
+5. Songwriting & Lyrics.
+6. Vocal Editing & Tuning.
+7. Audio Post-Production.
+8. Complete Song Production.
+
+Each service must contain:
+
+- A proper description.
+- Relevant imagery.
+- Benefits.
+- Book This Service button.
+- Service-specific booking form.
+
+### Music form
+
+Collect:
+
+- Full name.
+- Artist name.
+- Email.
+- WhatsApp.
+- Country.
+- City.
+- Selected service.
+- Song name.
+- Genre.
+- Number of tracks.
+- Recording requirements.
+- Mixing requirements.
+- Mastering requirements.
+- Reference links.
+- Preferred appointment date.
+- Deadline.
+- Estimated budget.
+- Project information.
+
+Dynamically show only relevant questions.
+
+# 11. VIDEO PRODUCTION
+
+This section must have one main service:
+
+MUSIC VIDEO PRODUCTION.
+
+Do not create unnecessary subcategories.
+
+Use cinema-camera, film-set, music-video and lighting visuals.
+
+### Booking form
+
+Collect:
+
+- Full name.
+- Artist name.
+- Email.
+- WhatsApp.
+- Country and city.
+- Song title.
+- Demo/song link.
+- Genre.
+- Video concept.
+- Script/storyboard availability.
+- Shooting location.
+- Preferred shoot date.
+- Cast/model requirements.
+- Production requirements.
+- Expected duration.
+- Estimated budget.
+- Reference links.
+- Delivery deadline.
+- Additional information.
+
+# 12. VIDEO POST-PRODUCTION
+
+Services:
+
+- Video Editing.
+- Cinematic Color Grading.
+- Visual Effects (VFX).
+- 2D Animation.
+- 3D Animation.
+- Green Screen / Chroma Key.
+- Compositing.
+- Motion Graphics.
+- Visual Enhancement.
+
+Every service must have a separate detail and booking interface.
+
+Collect relevant information:
+
+- Client name and contact.
+- Selected service.
+- Project type.
+- Video duration.
+- Footage resolution.
+- Frame rate.
+- Number of clips.
+- Output format.
+- Editing details.
+- VFX requirements.
+- Color-grading references.
+- Animation requirements.
+- Source footage link.
+- Budget.
+- Preferred date.
+- Deadline.
+- Additional instructions.
+
+Only show relevant questions.
+
+# 13. TV COMMERCIALS & ADVERTISING
+
+Services:
+
+- TV Commercial Production.
+- Digital Advertising.
+- Brand Commercials.
+- Product Videos.
+- Corporate Videos.
+- Promotional Videos.
+
+Collect:
+
+- Company name.
+- Contact person.
+- Email.
+- WhatsApp.
+- Country and city.
+- Product/service.
+- Advertisement type.
+- Platform.
+- Duration.
+- Script availability.
+- Shoot requirements.
+- Location.
+- Deliverables.
+- Deadline.
+- Budget.
+- Reference links.
+- Project description.
+
+# 14. TV DRAMAS
+
+Create a premium television production page.
+
+Collect:
+
+- Project/drama name.
+- Production company.
+- Number of episodes.
+- Episode duration.
+- Script availability.
+- Production requirements.
+- Post-production requirements.
+- Editing.
+- Color grading.
+- VFX/animation.
+- Project timeline.
+- Budget.
+- Contact details.
+- Project brief.
+
+# 15. FILMS & SHORT FILMS
+
+Create a cinematic film-production page.
+
+Collect:
+
+- Project category.
+- Film title.
+- Genre.
+- Screenplay availability.
+- Project stage.
+- Production requirements.
+- Post-production requirements.
+- Runtime.
+- Cast/crew requirements.
+- VFX/animation.
+- Shoot date.
+- Delivery schedule.
+- Budget.
+- Reference links.
+- Contact details.
+- Project description.
+
+# 16. TALENT APPLICATIONS
+
+Headline:
+
+EVERY GREAT STAR HAS A BEGINNING.
+
+Supporting text:
+
+"We believe talent deserves opportunity. Nauman Anees Productions welcomes passionate emerging artists and creative professionals who want to build their careers in the entertainment industry."
+
+Categories:
+
+- Singers.
+- Actors.
+- Models.
+- Musicians.
+- Dancers.
+- Writers.
+- Directors.
+- Content Creators.
+- Other Creative Talent.
+
+### Application form
+
+Collect:
+
+- Full name.
+- Professional/stage name.
+- Email.
+- WhatsApp.
+- Country.
+- City.
+- Age range.
+- Talent category.
+- Languages.
+- Skills.
+- Previous experience.
+- Biography.
+- Social links.
+- Portfolio link.
+- Photograph link.
+- Audition video link.
+- Singing demo link where relevant.
+- Additional information.
+
+Applicants under 18 must provide appropriate guardian details and consent.
+
+Accept accessible portfolio and media links unless secure upload storage is properly implemented.
+
+Include consent for application review and separate optional consent for promotional use.
+
+Explain that submission does not guarantee selection or employment.
+
+# 17. CONCERT & ARTIST BOOKING
+
+Headline:
+
+MAKE YOUR EVENT UNFORGETTABLE.
+
+Services:
+
+- Wedding Concerts.
+- Corporate Events.
+- Private Events.
+- Live Music Shows.
+- Concerts.
+- Special Performances.
+- Entertainment Bookings.
+
+### Artist availability
+
+We have access to artists and performers from Pakistan and India and offer artist-booking services.
+
+The service is not restricted to a small fixed roster.
+
+We can arrange bookings for a broad range of artists from both countries, subject to individual artist availability, event requirements, agreements and confirmation.
+
+Use the artist photographs supplied for the Concert & Artist Booking banner.
+
+The artist-composite banner represents our actual artist-booking service, not a fabricated roster.
+
+KEEP the artist-composite banner.
+
+Do not remove or replace it with an empty-stage banner.
+
+Preserve the original faces of the featured artists. Never generate replacement faces or misrepresent artist identities.
+
+Do not claim that every artist is available for every date without confirmation.
+
+### Event booking form
+
+Collect:
+
+- Client name.
+- Organization.
+- Email.
+- WhatsApp.
+- Country.
+- City.
+- Event type.
+- Event date.
+- Venue.
+- Indoor/outdoor.
+- Expected audience.
+- Preferred artist/singer.
+- Performance duration.
+- Stage and sound requirements.
+- Budget.
+- Additional information.
+
+# 18. CONTACT INFORMATION — STRICT REQUIREMENT
+
+The website's Contact Information sections must display ONLY:
+
+1. Official Phone / WhatsApp Number.
+2. Official Business Email.
+
+Do not display:
+
+- Office address.
+- Google Maps.
+- Instagram.
+- Facebook.
+- YouTube.
+- TikTok.
+- Other social media links.
+
+I will supply the actual phone number and email later.
+
+Use clearly editable placeholders until those details are provided.
+
+The Contact Us inquiry form must remain fully functional and connected to Google Sheets.
+
+# 19. EXISTING GOOGLE SHEETS CONNECTION — DO NOT REPLACE
+
+My Google Spreadsheet and Google Apps Script backend already exist and have been initialized.
+
+Use the existing backend.
+
+Do not create another Google Sheet or another Apps Script deployment.
+
+Do not invent a replacement endpoint.
+
+## Actual Google Apps Script URL
+
+https://script.google.com/macros/s/AKfycbzjBm0Lm6Q6-PkbITR9SkzOlQGno_pcpUCWkb4IFgryO0Xnfdu7eK1z0TO0QvXuCus/exec
+
+This is the exact deployed endpoint.
+
+Existing tabs:
+
+1. Service Bookings.
+2. Talent Applications.
+3. Event Bookings.
+4. General Contact.
+
+Preserve these tabs and their data.
+
+### Architecture
+
+WEBSITE → CLOUDFLARE WORKER / PAGES FUNCTION → GOOGLE APPS SCRIPT → GOOGLE SHEETS.
+
+Never expose the Apps Script secret in public frontend code.
+
+### Cloudflare environment variables
+
+`APPS_SCRIPT_URL`
+
+Value:
+
+https://script.google.com/macros/s/AKfycbzjBm0Lm6Q6-PkbITR9SkzOlQGno_pcpUCWkb4IFgryO0Xnfdu7eK1z0TO0QvXuCus/exec
+
+`APPS_SCRIPT_SECRET`
+
+Value: The same secret configured in Apps Script Script Properties under `SHARED_SECRET`.
+
+I will enter the secret in Cloudflare. Do not invent or expose it.
+
+### Accepted submission types
+
+- `service_booking`
+- `talent_application`
+- `event_booking`
+- `general_contact`
+
+### Data handling
+
+Every form answer must be transmitted to Google Apps Script inside the `data` object.
+
+For every service request, preserve:
+
+- Submission type.
+- Main category.
+- Exact selected service.
+- Full client information.
+- Every service-specific question and answer.
+- Budget.
+- Preferred date.
+- Project description.
+- Reference links.
+- Submission timestamp.
+- Unique request ID.
+- Status.
+
+Examples:
+
+Music Production → Mixing & Mastering must be recorded as Mixing & Mastering.
+
+Video Post-Production → Color Grading must be recorded as Color Grading.
+
+Music Video Production must be recorded as Music Video Production, never generic Video Editing.
+
+Keep the existing Apps Script-compatible payload structure:
+
+{
+  "secret": "YOUR_SHARED_SECRET",
+  "type": "service_booking",
+  "requestId": "unique-request-id",
+  "category": "Music Production",
+  "selectedService": "Mixing & Mastering",
+  "sourcePage": "/services/music-production/",
+  "data": {
+    "fullName": "Client Name",
+    "email": "client@example.com",
+    "whatsapp": "03001234567",
+    "country": "Pakistan",
+    "city": "Lahore",
+    "budget": "50000",
+    "preferredDate": "YYYY-MM-DD",
+    "additionalInformation": "Project requirements"
+  }
+}
+
+Preserve every additional dynamic answer in `data`.
+
+### Cloudflare backend functionality
+
+Implement:
+
+- Server-side validation.
+- Proper JSON request handling.
+- Google Apps Script integration.
+- Request IDs.
+- Duplicate protection.
+- Honeypot.
+- Reasonable rate limiting.
+- Error handling.
+- Correct Apps Script redirects handling.
+- Final response verification.
+- Secure handling of environment secrets.
+
+Do not treat every HTTP response as a successful booking.
+
+Only show success when the final Apps Script JSON response contains `success: true`.
+
+If submission fails, preserve the user's form answers and show a retry option.
+
+### Appointment behavior
+
+The client submits a preferred date and time.
+
+The request is saved to Google Sheets.
+
+Our team reviews the information and confirms the appointment manually.
+
+Never automatically claim that the appointment is confirmed.
+
+# 20. CINEMATIC FORM CONFIRMATION
+
+Every successfully submitted form must show a premium cinema-themed confirmation.
+
+This applies to:
+
+- Service Bookings.
+- Music Production.
+- Music Video Production.
+- Post-Production.
+- TV Commercials.
+- TV Dramas.
+- Films.
+- Talent Applications.
+- Concert & Events.
+- General Contact.
+
+### Confirmation animation
+
+1. Submission is confirmed by the backend.
+2. A professional cinema camera shutter/aperture animation appears.
+3. A subtle film-inspired visual movement plays.
+4. An elegant golden confirmation tick appears.
+5. Confirmation text is revealed.
+6. Display the unique request ID.
+
+Main text:
+
+YOUR REQUEST HAS BEEN SUCCESSFULLY RECEIVED.
+
+Supporting text:
+
+"Our team will review your submission and contact you shortly."
+
+The animation should be short, sophisticated, smooth and premium.
+
+Never show the success animation before successful backend confirmation.
+
+# 21. NAVIGATION AND FOOTER
+
+Create a modern sticky navigation bar.
+
+Navigation:
+
+- Home.
+- About Us.
+- Legacy.
+- Services.
+- Portfolio.
+- Talent.
+- Events.
+- Contact.
+
+Create a beautifully designed Services dropdown.
+
+Add a premium gold-accented BOOK A PROJECT button.
+
+Footer:
+
+- Official company logo.
+- Tagline.
+- Short company introduction.
+- Quick links.
+- Service navigation.
+- Phone/WhatsApp number.
+- Official business email.
+- Privacy Policy.
+- Copyright notice.
+
+No address and no social links.
+
+# 22. SEO — COMPLETE PROFESSIONAL IMPLEMENTATION
+
+Build the strongest technically sound SEO foundation from the beginning.
+
+Implement:
+
+- Unique page titles.
+- Unique meta descriptions.
+- Proper H1, H2 and H3 hierarchy.
+- Semantic HTML5.
+- Canonical URLs.
+- XML sitemap.
+- Robots.txt.
+- Open Graph metadata.
+- Social-sharing metadata.
+- Descriptive image alt text.
+- Internal linking.
+- Breadcrumb navigation.
+- Mobile-first architecture.
+- Optimized image formats.
+- Lazy loading.
+- Structured data.
+- Custom 404.
+- HTTPS-ready canonical URLs.
+
+### Search keywords
+
+Naturally optimize relevant pages around:
+
+- Film Production House in Pakistan.
+- Video Production Company Pakistan.
+- Music Video Production Pakistan.
+- Professional Video Editing Pakistan.
+- Video Post Production Pakistan.
+- Color Grading Services Pakistan.
+- VFX Company Pakistan.
+- Animation Services Pakistan.
+- Music Recording Studio Pakistan.
+- Mixing and Mastering Pakistan.
+- TV Commercial Production Pakistan.
+- TV Drama Production Pakistan.
+- Film Production Pakistan.
+- Artist Management Pakistan.
+- Artist Booking Pakistan.
+- Singer Booking Pakistan.
+- Concert and Event Booking Pakistan.
+
+Use separate keyword strategies for appropriate pages.
+
+Do not keyword-stuff.
+
+### Structured data
+
+Use appropriate schema:
+
+- Organization.
+- WebSite.
+- Service.
+- BreadcrumbList.
+- VideoObject only when actual videos exist.
+- Event only for genuine published events.
+
+Never invent ratings, testimonials, awards or business facts.
+
+Prepare the website for Google Search Console and indexing.
+
+Do not guarantee a number-one search ranking.
+
+# 23. MOBILE AND RESPONSIVE DESIGN
+
+The website must be excellent on:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile phones.
+
+All sections, images, animations, menus, buttons and forms must adapt correctly.
+
+The cinematic curtains must remain smooth and visually impressive on mobile without affecting performance.
+
+# 24. SECURITY AND PERFORMANCE
+
+Use:
+
+- Lightweight code.
+- Optimized assets.
+- Lazy loading.
+- Efficient CSS/JavaScript.
+- Secure backend validation.
+- No exposed secrets.
+- Spam protection.
+- Accessible controls.
+- Keyboard-friendly navigation.
+- Reduced-motion support.
+- Privacy-conscious information handling.
+
+Do not use unnecessary libraries or excessive visual effects.
+
+# 25. REQUIRED PROJECT DELIVERABLES
+
+Deliver a complete, maintainable, Cloudflare-ready project.
+
+Include:
+
+- Every HTML page.
+- Shared CSS.
+- JavaScript.
+- Curtain animation code.
+- Page transition system.
+- Official logo integration.
+- Asset directory.
+- Favicon.
+- Responsive navigation.
+- All service booking forms.
+- Talent application form.
+- Event booking form.
+- Contact form.
+- Cloudflare Worker / Pages Function.
+- Existing Google Apps Script integration.
+- Sitemap.
+- Robots.txt.
+- Privacy Policy.
+- README.
+- Exact deployment instructions.
+
+Do not deliver only screenshots, mockups or a single homepage.
+
+Do not leave important pages empty.
+
+Do not use lorem ipsum.
+
+# 26. FINAL QUALITY TESTING
+
+Before declaring the website complete, test:
+
+1. Original logo appears correctly.
+2. Realistic curtain opening.
+3. Smooth internal curtain transitions.
+4. Desktop appearance.
+5. Mobile appearance.
+6. All page URLs.
+7. All navigation links.
+8. All service pages.
+9. Every booking button.
+10. Dynamic service-specific forms.
+11. Correct service selection in submissions.
+12. Google Apps Script integration.
+13. Google Sheets data storage.
+14. Talent Applications.
+15. Event Bookings.
+16. General Contact.
+17. Camera-themed confirmation animation.
+18. Failure and retry behavior.
+19. Duplicate submission protection.
+20. Browser refresh and history.
+21. SEO metadata.
+22. Sitemap and robots.txt.
+23. Broken images and links.
+24. Reduced-motion accessibility.
+25. Backend security.
+
+Provide a clear report distinguishing:
+
+A. Completed and tested features.
+
+B. Implemented features awaiting my private Cloudflare secret or configuration.
+
+C. Any remaining limitations.
+
+Never claim a live integration has been verified without an actual successful submission appearing in the correct Google Sheet.
+
+# FINAL CREATIVE VISION
+
+NAUMAN ANEES PRODUCTIONS must feel like a prestigious international film studio.
+
+**HERITAGE:** More than 60 years of family involvement in the Pakistani film and entertainment industry.
+
+**EXCELLENCE:** Professional production, post-production, editing, VFX, animation, music and entertainment services.
+
+**VISION:** Daniyal Nauman's ambition to carry the legacy forward and build one of Pakistan's biggest film production houses.
+
+The final website must be:
+
+- Modern.
+- Extremely premium.
+- Elegant.
+- Cinematic.
+- Realistic.
+- Smooth.
+- Responsive.
+- Professional.
+- Fast.
+- SEO-ready.
+- Fully functional.
+
+The red velvet cinema curtains must feel realistic.
+
+The official logo must remain untouched.
+
+The original three generations' photographs must retain their real identities.
+
+All existing working content and functionality must be preserved.
+
+**NAUMAN ANEES PRODUCTIONS**
+
+A LEGACY OF CINEMA. A VISION FOR THE FUTURE.
+
+Deliver an exceptional international-standard digital experience.

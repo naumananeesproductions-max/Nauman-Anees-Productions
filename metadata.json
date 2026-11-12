@@ -1,0 +1,8 @@
+{
+  "name": "Nauman Anees Productions",
+  "description": "Your One-Stop Media Solution. Film production, music studio, VFX, animation, post-production, artist booking, and talent network carrying forward 60+ years of Pakistani cinema heritage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
