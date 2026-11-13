@@ -274,7 +274,7 @@ export const TalentApplicationForm: React.FC<TalentApplicationFormProps> = ({
             id="talent-whatsapp"
             type="tel"
             required
-            placeholder="+92 300 0000000"
+            placeholder="+92 3XX XXXXXXX"
             value={whatsapp}
             onChange={(e) => setWhatsapp(e.target.value)}
             className={`w-full bg-[#080607] border rounded px-4 py-3 text-sm text-[#F5EFE6] placeholder:text-[#B8AEA0]/45 focus:outline-none focus:border-[#C9A25D] ${

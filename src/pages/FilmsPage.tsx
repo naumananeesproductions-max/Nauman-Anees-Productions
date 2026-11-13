@@ -16,7 +16,7 @@ const FILM_FIELDS: DynamicFieldConfig[] = [
   },
   { name: 'fullName', label: 'Producer / Filmmaker Name', type: 'text', required: true, placeholder: 'Your full name' },
   { name: 'email', label: 'Email Address', type: 'email', required: true, placeholder: 'you@example.com' },
-  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 300 0000000' },
+  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 3XX XXXXXXX' },
   { name: 'country', label: 'Country', type: 'text', required: true, placeholder: 'Pakistan' },
   { name: 'city', label: 'City', type: 'text', required: true, placeholder: 'Lahore / Karachi' },
   {

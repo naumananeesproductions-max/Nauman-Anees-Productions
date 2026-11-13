@@ -10,7 +10,7 @@ const VIDEO_PRODUCTION_FIELDS: DynamicFieldConfig[] = [
   { name: 'fullName', label: 'Full Name', type: 'text', required: true, placeholder: 'Your full name' },
   { name: 'artistName', label: 'Artist / Performer Name', type: 'text', placeholder: 'Artist or band name' },
   { name: 'email', label: 'Email Address', type: 'email', required: true, placeholder: 'you@example.com' },
-  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 300 0000000' },
+  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 3XX XXXXXXX' },
   { name: 'country', label: 'Country', type: 'text', required: true, placeholder: 'Pakistan' },
   { name: 'city', label: 'City', type: 'text', required: true, placeholder: 'Lahore / Karachi / Islamabad' },
   { name: 'songTitle', label: 'Song Title', type: 'text', required: true, placeholder: 'Name of the song' },

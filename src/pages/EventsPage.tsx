@@ -18,7 +18,7 @@ const EVENT_BOOKING_FIELDS: DynamicFieldConfig[] = [
   { name: 'clientName', label: 'Client Name', type: 'text', required: true, placeholder: 'Your full name' },
   { name: 'organization', label: 'Organization / Family Host Name', type: 'text', placeholder: 'Company or host name' },
   { name: 'email', label: 'Email Address', type: 'email', required: true, placeholder: 'you@example.com' },
-  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 300 0000000' },
+  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 3XX XXXXXXX' },
   { name: 'country', label: 'Country', type: 'text', required: true, placeholder: 'Pakistan / UAE / UK / India / etc.' },
   { name: 'city', label: 'City', type: 'text', required: true, placeholder: 'Lahore / Karachi / Dubai / London' },
   {

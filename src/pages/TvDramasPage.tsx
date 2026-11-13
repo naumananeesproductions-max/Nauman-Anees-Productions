@@ -10,7 +10,7 @@ const TV_DRAMA_FIELDS: DynamicFieldConfig[] = [
   { name: 'productionCompany', label: 'Production Company / Network', type: 'text', placeholder: 'Production house or channel name' },
   { name: 'fullName', label: 'Contact Person Name', type: 'text', required: true, placeholder: 'Producer or executive name' },
   { name: 'email', label: 'Email Address', type: 'email', required: true, placeholder: 'producer@company.com' },
-  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 300 0000000' },
+  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 3XX XXXXXXX' },
   { name: 'country', label: 'Country', type: 'text', required: true, placeholder: 'Pakistan' },
   { name: 'city', label: 'City', type: 'text', required: true, placeholder: 'Karachi / Lahore' },
   { name: 'numberOfEpisodes', label: 'Number of Episodes', type: 'number', placeholder: 'e.g., 26' },

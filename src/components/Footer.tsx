@@ -127,7 +127,23 @@ export const Footer: React.FC = () => {
                   <p className="text-xs uppercase tracking-wider text-[#F5EFE6]/70">
                     Phone / WhatsApp
                   </p>
-                  <p className="text-[#F5EFE6] mt-0.5">{CONTACT_INFO.phoneWhatsapp}</p>
+                  <div className="mt-0.5 flex flex-wrap items-center gap-x-3 gap-y-1">
+                    <a
+                      href={`tel:${CONTACT_INFO.phoneRaw}`}
+                      className="text-[#F5EFE6] hover:text-[#DFBE7E] transition-colors"
+                    >
+                      {CONTACT_INFO.phoneWhatsapp}
+                    </a>
+                    <span className="text-white/25" aria-hidden="true">·</span>
+                    <a
+                      href={`https://wa.me/${CONTACT_INFO.whatsappDigits}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-xs uppercase tracking-wider text-[#DFBE7E] hover:text-[#F5EFE6] transition-colors"
+                    >
+                      WhatsApp
+                    </a>
+                  </div>
                 </div>
               </div>
 

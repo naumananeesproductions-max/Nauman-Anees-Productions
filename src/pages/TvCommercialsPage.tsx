@@ -17,7 +17,7 @@ const TV_COMMERCIAL_FIELDS: DynamicFieldConfig[] = [
   { name: 'companyName', label: 'Company / Brand Name', type: 'text', required: true, placeholder: 'Organization or brand name' },
   { name: 'fullName', label: 'Contact Person Name', type: 'text', required: true, placeholder: 'Your full name' },
   { name: 'email', label: 'Business Email', type: 'email', required: true, placeholder: 'name@company.com' },
-  { name: 'whatsapp', label: 'WhatsApp / Direct Phone', type: 'tel', required: true, placeholder: '+92 300 0000000' },
+  { name: 'whatsapp', label: 'WhatsApp / Direct Phone', type: 'tel', required: true, placeholder: '+92 3XX XXXXXXX' },
   { name: 'country', label: 'Country', type: 'text', required: true, placeholder: 'Pakistan' },
   { name: 'city', label: 'City', type: 'text', required: true, placeholder: 'Karachi / Lahore / Islamabad' },
   { name: 'productOrService', label: 'Product or Service Being Advertised', type: 'text', required: true, placeholder: 'e.g., Luxury Fragrance / Fintech App' },

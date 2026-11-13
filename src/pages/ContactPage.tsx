@@ -8,7 +8,7 @@ import { DynamicBookingForm } from '../components/DynamicBookingForm';
 const GENERAL_CONTACT_FIELDS: DynamicFieldConfig[] = [
   { name: 'fullName', label: 'Full Name', type: 'text', required: true, placeholder: 'Your full name' },
   { name: 'email', label: 'Email Address', type: 'email', required: true, placeholder: 'you@example.com' },
-  { name: 'whatsapp', label: 'Phone / WhatsApp Number', type: 'tel', required: true, placeholder: '+92 300 0000000' },
+  { name: 'whatsapp', label: 'Phone / WhatsApp Number', type: 'tel', required: true, placeholder: '+92 3XX XXXXXXX' },
   { name: 'country', label: 'Country', type: 'text', placeholder: 'Pakistan' },
   { name: 'city', label: 'City', type: 'text', placeholder: 'Lahore / Karachi / Islamabad' },
   {
@@ -68,9 +68,22 @@ export const ContactPage: React.FC = () => {
                     <p className="text-xs uppercase tracking-wider text-[#B8AEA0]">
                       Official Phone / WhatsApp Number
                     </p>
-                    <p className="text-sm font-medium text-[#F5EFE6] mt-1">
-                      {CONTACT_INFO.phoneWhatsapp}
-                    </p>
+                    <div className="mt-1 flex flex-wrap items-center gap-3">
+                      <a
+                        href={`tel:${CONTACT_INFO.phoneRaw}`}
+                        className="text-sm font-medium text-[#F5EFE6] hover:text-[#DFBE7E] transition-colors"
+                      >
+                        {CONTACT_INFO.phoneWhatsapp}
+                      </a>
+                      <a
+                        href={`https://wa.me/${CONTACT_INFO.whatsappDigits}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider text-[#DFBE7E] border border-[#C9A25D]/40 rounded hover:border-[#C9A25D] hover:bg-[#6B0F1A]/30 transition-colors"
+                      >
+                        Message on WhatsApp
+                      </a>
+                    </div>
                   </div>
                 </div>
 
@@ -91,10 +104,6 @@ export const ContactPage: React.FC = () => {
                   </div>
                 </div>
               </div>
-
-              <p className="text-xs text-[#B8AEA0]/80 pt-3 border-t border-white/10 leading-relaxed">
-                {CONTACT_INFO.note}
-              </p>
             </div>
           </div>
 

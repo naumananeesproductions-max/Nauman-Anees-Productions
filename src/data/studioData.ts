@@ -18,10 +18,10 @@ export const STUDIO_ASSETS = {
 } as const;
 
 export const CONTACT_INFO = {
-  phoneWhatsapp: '+92 300 0000000 (Official Number Placeholder)',
-  phoneRaw: '+923000000000',
-  email: 'contact@naumananeesproductions.com',
-  note: 'Contact details are editable studio placeholders pending final official number and email confirmation.',
+  phoneWhatsapp: '+92 226966886',
+  phoneRaw: '+92226966886',
+  whatsappDigits: '92226966886',
+  email: 'naumananeesproductions@gmail.com',
 } as const;
 
 export const EXPERIENCE_COUNTERS = [
@@ -319,7 +319,7 @@ export const MUSIC_DYNAMIC_FIELDS: DynamicFieldConfig[] = [
   { name: 'fullName', label: 'Full Name', type: 'text', required: true, placeholder: 'Your full name' },
   { name: 'artistName', label: 'Artist / Stage Name', type: 'text', placeholder: 'Artist or band name' },
   { name: 'email', label: 'Email Address', type: 'email', required: true, placeholder: 'you@example.com' },
-  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 300 0000000' },
+  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 3XX XXXXXXX' },
   { name: 'country', label: 'Country', type: 'text', required: true, placeholder: 'Pakistan' },
   { name: 'city', label: 'City', type: 'text', required: true, placeholder: 'Lahore / Karachi / Islamabad' },
   { name: 'songName', label: 'Song / Project Title', type: 'text', placeholder: 'Working title of your song' },
@@ -500,7 +500,7 @@ export const POST_PRODUCTION_SERVICES: SubServiceItem[] = [
 export const POST_PRODUCTION_DYNAMIC_FIELDS: DynamicFieldConfig[] = [
   { name: 'fullName', label: 'Full Name', type: 'text', required: true, placeholder: 'Your full name' },
   { name: 'email', label: 'Email Address', type: 'email', required: true, placeholder: 'you@example.com' },
-  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 300 0000000' },
+  { name: 'whatsapp', label: 'WhatsApp Number', type: 'tel', required: true, placeholder: '+92 3XX XXXXXXX' },
   { name: 'country', label: 'Country', type: 'text', required: true, placeholder: 'Pakistan' },
   { name: 'city', label: 'City', type: 'text', required: true, placeholder: 'Lahore' },
   {
