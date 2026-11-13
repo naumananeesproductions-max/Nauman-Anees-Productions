@@ -4,23 +4,17 @@ import type {
   SubServiceItem,
   TalentCategoryCard,
 } from '../types/studio';
-import heroCinemaStudio from '../assets/images/hero_cinema_studio_1794525499621.jpg';
-import musicStudioConsole from '../assets/images/music_studio_console_1794525500003.jpg';
-import videoPostVfx from '../assets/images/video_post_vfx_1794525502120.jpg';
-import filmDramaProduction from '../assets/images/film_drama_production_1794525501156.jpg';
-import talentStageSpotlight from '../assets/images/talent_stage_spotlight_1794525501655.jpg';
-
 export const STUDIO_ASSETS = {
-  logo: '/assets/aistudio/853672361_18125885935918467_983530840317929208_n_597e6c7d.jpg',
-  aneesBhatti: '/assets/aistudio/Anees_Bhatti_0bd4a91b.png',
-  naumanAnees: '/assets/aistudio/Nauman_Anees_75d2a4b2.png',
-  daniyalNauman: '/assets/aistudio/Daniyal_Nauman_cccd4117.jpg',
-  artistBanner: '/assets/aistudio/Artists_performing_on_luxury_stage_f9b733fd_2K_001fdfa5.jpg',
-  heroCinemaStudio,
-  musicStudioConsole,
-  videoPostVfx,
-  filmDramaProduction,
-  talentStageSpotlight,
+  logo: '/images/nap-logo.jpg',
+  aneesBhatti: '/images/anees-bhatti.png',
+  naumanAnees: '/images/nauman-anees.png',
+  daniyalNauman: '/images/daniyal-nauman.jpg',
+  artistBanner: '/images/concert-artists-banner.jpg',
+  heroCinemaStudio: '/images/hero-cinema-studio.jpg',
+  musicStudioConsole: '/images/music-studio-console.jpg',
+  videoPostVfx: '/images/video-post-vfx.jpg',
+  filmDramaProduction: '/images/film-drama-production.jpg',
+  talentStageSpotlight: '/images/talent-stage-spotlight.jpg',
 } as const;
 
 export const CONTACT_INFO = {
