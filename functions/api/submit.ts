@@ -18,12 +18,20 @@ interface PagesContext {
 
 const duplicateGuard = new RequestDuplicateGuard(10 * 60 * 1000);
 
+const CORS_HEADERS: Record<string, string> = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'POST, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+  'Access-Control-Max-Age': '86400',
+};
+
 function jsonResponse(body: Record<string, unknown>, status = 200): Response {
   return new Response(JSON.stringify(body), {
     status,
     headers: {
       'Content-Type': 'application/json; charset=utf-8',
       'Cache-Control': 'no-store',
+      ...CORS_HEADERS,
     },
   });
 }
@@ -31,13 +39,9 @@ function jsonResponse(body: Record<string, unknown>, status = 200): Response {
 export const onRequestOptions = async (): Promise<Response> => {
   return new Response(null, {
     status: 204,
-    headers: {
-      'Access-Control-Allow-Methods': 'POST, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type',
-      'Access-Control-Max-Age': '86400',
-    },
+    headers: CORS_HEADERS,
   });
-}
+};
 
 export const onRequestPost = async (context: PagesContext): Promise<Response> => {
   const { request, env } = context;
